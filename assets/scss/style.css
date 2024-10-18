@@ -53,6 +53,7 @@
   --primary-color: #212121;
   --secondary-color: #0658B2;
   --third-color: #fff;
+  --fourth-color: #FDCE4D;
   --foreground-color: #121416;
   --foreground-sub-color: #898686;
   --body-text-color: #000000;
@@ -906,7 +907,7 @@ select {
 }
 
 .border-bottom {
-  border-bottom: 1px solid var(--border-color) !important;
+  border-bottom: 1px solid rgba(241, 241, 241, 0.3568627451) !important;
 }
 
 .border {
@@ -1714,7 +1715,7 @@ a.header__menu--link {
   margin-right: 0.2rem;
 }
 .header__info--link.text-white:hover {
-  color: var(--secondary-color) !important;
+  color: var(--fourth-color) !important;
 }
 
 .header__top--right {
@@ -1762,7 +1763,7 @@ a.header__menu--link {
   margin-right: 0.2rem;
 }
 .header__link--menu__text.text-white:hover {
-  color: var(--secondary-color) !important;
+  color: var(--fourth-color) !important;
 }
 
 /*
@@ -2080,6 +2081,7 @@ a.header__menu--link {
   background: var(--primary-color);
   text-align: center;
   border-radius: 50%;
+  color: white;
 }
 
 .minicart__btn--text {
@@ -2573,10 +2575,10 @@ a.header__menu--link {
   line-height: 3.5rem;
 }
 .account__currency--link:hover span {
-  color: var(--secondary-color);
+  color: var(--fourth-color);
 }
 .account__currency--link:hover svg {
-  color: var(--secondary-color);
+  color: var(--fourth-color);
 }
 .account__currency--link svg {
   transition: var(--transition);
@@ -2684,10 +2686,10 @@ a.header__menu--link {
   margin-right: 5px;
 }
 .language__switcher:hover span {
-  color: var(--secondary-color);
+  color: var(--fourth-color);
 }
 .language__switcher:hover svg {
-  color: var(--secondary-color);
+  color: var(--fourth-color);
 }
 .language__switcher svg {
   transition: var(--transition);
@@ -3057,7 +3059,7 @@ input[type=number]::-webkit-outer-spin-button {
     home five header css
 */
 .social__share--icon.text-white:hover {
-  color: var(--secondary-color) !important;
+  color: var(--fourth-color) !important;
 }
 
 /* 
